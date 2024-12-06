@@ -1,0 +1,382 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: system-ui -apple-system "Segoe UI" Roboto "Helvetica Neue" "Noto Sans"
+    "Liberation Sans" Arial sans-serif "Apple Color Emoji" "Segoe UI Emoji" "Segoe UI Symbol"
+    "Noto Color Emoji";
+}
+
+nav .container .logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+nav .container .navbar-collapse ul li:hover a{
+    position: relative;
+}
+nav .container .navbar-collapse ul li:hover a::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    bottom: 5px;
+    background-color: #ffffff;  
+}
+header {
+  background-image: url(./../image/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+header .content h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+header .content p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* start style about */
+section .container .about-card .image-card .image-info p {
+  color: #4e4e4e;
+  font-size: 16px;
+  font-weight: 400;
+}
+section .container .about-card .image-card .image-info p span {
+  color: #1e1e1e;
+  font-size: 17.6px;
+  font-weight: 600;
+}
+section .container .image-skill .skill p {
+  color: #1e1e1e;
+}
+section .container .image-skill span {
+  color: RGB(78, 78, 78);
+}
+section .container .image-skill .item-skill {
+  margin-bottom: 25px;
+}
+section .container .about-desc h5 {
+  color: #1e1e1e;
+  padding-bottom: 10px;
+  position: relative;
+}
+section .container .about-desc h5::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #0078ff;
+}
+section .container .about-desc p {
+  color: #4e4e4e;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* end style about */
+
+/* start style work */
+section .service-header h3 {
+  color: #1e1e1e;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+}
+section .service-header h3::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  bottom: -40px;
+  background-color: #0078ff;
+  right: 48%;
+}
+section .service-header p {
+  color: #4e4e4e;
+}
+section .container .card-service {
+  width: 31%;
+}
+section .container .card-service .card-body h5 {
+  color: #1e1e1e;
+  font-size: 22.5px;
+  font-weight: 500;
+}
+section .container .card-service .card-body p {
+  color: #4e4e4e;
+}
+section .container .card-service .card-body .card-icon i {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #0078ff;
+}
+section .container .card-service .card-body:hover i {
+  border: 10px solid #cde1f8;
+  border-radius: 50%;
+  background-color: #0078ff;
+  color: white;
+}
+/* end style work */
+
+/* start style section */
+.section-body {
+  background-image: url(./../image/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 14rem 0;
+}
+.section-body .section-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1362bd;
+  opacity: 0.8;
+}
+.section-body .section-bg .container .item .item-icon i {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 10px solid #cde1f8;
+  margin-bottom: 0;
+}
+.section-body .section-bg .container .item .item-icon p {
+  margin-bottom: 0;
+}
+/* end style section */
+
+/* start style portfolio */
+section .portfolio-header h3 {
+  color: #1e1e1e;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+}
+section .portfolio-header h3::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  bottom: -40px;
+  background-color: #0078ff;
+  right: 48%;
+}
+section .portfolio-header p {
+  color: #4e4e4e;
+}
+section .container .card-portfolio {
+  width: 31%;
+}
+section .container .card-portfolio .card-body h5 {
+  color: #1e1e1e;
+  font-size: 22.5px;
+  font-weight: 500;
+}
+section .container .card-portfolio .card-body p {
+  color: #4e4e4e;
+}
+section .container .card-portfolio .card-body .card-info .card-desc h2 {
+  color: #1e1e1e;
+  font-size: 19.2px;
+  font-weight: 500;
+}
+section .container .card-portfolio .card-body .card-info .card-icon i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #0078ff;
+  margin-bottom: 0;
+}
+section .container .card-portfolio .card-body a img {
+  transition: all 2ms;
+}
+section .container .card-portfolio .card-body:hover img {
+  transform: scale(1.2);
+}
+/* end style portfolio */
+
+/* start style slider */
+.slider-body {
+  background-image: url(./../image/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 16rem 0;
+}
+.slider-body .slider-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1362bd;
+  opacity: 0.8;
+}
+.slider-body .slider-bg .carousel .carousel-button {
+  transform: translateY(65px);
+}
+.slider-body .slider-bg .carousel .carousel-button button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.slider-body
+  .slider-bg
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-figure
+  .carousel-title {
+  font-size: 22.4px;
+  font-weight: 600;
+}
+/* end style slider */
+
+/* start style blog */
+section .blog-header h3 {
+  color: #1e1e1e;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+}
+section .blog-header h3::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  bottom: -40px;
+  background-color: #0078ff;
+  right: 48%;
+}
+section .blog-header p {
+  color: #4e4e4e;
+}
+section .container .card-blog {
+  width: 31%;
+}
+section .container .card-blog .card-body .card-box {
+  width: 21%;
+  transform: translateY(-12px);
+}
+section .container .card-blog .card-body .card-box h6 {
+  font-size: 11.2px;
+  font-weight: 500;
+}
+section .container .card-blog .card-body .card-info .card-title {
+  color: #1e1e1e;
+  font-size: 20.8px;
+  font-weight: 500;
+}
+section .container .card-blog .card-body .card-info .card-title:hover {
+  color: #0078ff;
+}
+section .container .card-blog .card-body .card-info p {
+  color: #4e4e4e;
+}
+section .container .card-blog .card-body .blog-footer a .footer-title {
+  color: #1e1e1e;
+}
+section .container .card-blog .card-body .blog-footer:hover .footer-title {
+  color: #0078ff;
+}
+section .container .card-blog .card-body .blog-footer a .footer-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+section .container .card-blog .card-body .blog-footer .icon-time {
+  color: #4e4e4e;
+}
+/* end style blog */
+
+/* start style contact */
+.contact-body {
+  background-image: url(./../image/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 21rem 0;
+}
+.contact-body .contact-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1362bd;
+  opacity: 0.8;
+}
+.contact-body .contact-bg .container h5 {
+  color: #1e1e1e;
+  padding-bottom: 10px;
+  position: relative;
+}
+.contact-body .contact-bg .container h5::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #0078ff;
+}
+.contact-body .contact-bg .container p {
+  color: #4e4e4e;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.contact-body .contact-bg .container .contact-desc ul li {
+  color: #4e4e4e;
+}
+.contact-body .contact-bg .container .contact-desc .icon-social {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #0062D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s ease-in-out;
+}
+.contact-body .contact-bg .container .contact-desc .icon-social:hover{
+  background-color: #0062D3;
+  border-color: #cde1f8;
+  color: #fff;
+}
+/* end style contact */
+
+/* start style footer */
+footer{
+    background-color: #0062D3;
+}
+
